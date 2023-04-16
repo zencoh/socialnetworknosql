@@ -1,4 +1,5 @@
 const { Schema, model } = require('mongoose');
+const { User } = require('.');
 
 
 const userSchema = new Schema(
@@ -33,3 +34,5 @@ userSchema
     })
     // setter, no idea how to do this
     .set
+
+    module.exports = User;

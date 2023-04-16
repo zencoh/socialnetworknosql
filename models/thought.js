@@ -35,3 +35,5 @@ thoughtSchema
     })
     // setter
     .set
+
+    module.exports = Thought;

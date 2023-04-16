@@ -25,3 +25,6 @@ const reactionSchema = new Schema(
 );
 
 // reaction subdocument schema in thought model
+
+
+module.exports = Reaction;
