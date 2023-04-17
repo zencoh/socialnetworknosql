@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose');
-const { User } = require('.');
+const thoughtSchema = require('./thought');
 
 
 const userSchema = new Schema(

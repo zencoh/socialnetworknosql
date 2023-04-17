@@ -18,7 +18,7 @@ module.exports = {
         }
     },
     // get a single thought
-    async getSinglethought(req, res) {
+    async getSingleThought(req, res) {
         try{
             const thought = await Thought.findOne({ _id: req.params.thoughtId })
             .select('-__v');
@@ -34,7 +34,7 @@ module.exports = {
         }
     },
     // create new thought
-    async createthought(req, res) {
+    async createThought(req, res) {
         try {
             const thought = await Thought.create(req.body);
             res.json(thought);
